@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Order xmlns="http://www.sterlingcommerce.com/documentation/YFS/ORDER_CREATE/ON_SUCCESS"  CustomerEMailID="rakesh.gorai@tesco.com" DocumentType="0001" EnteredBy="" EnterpriseCode="TDCGTH" EntryType="" OrderDate="2020-04-28T12:06:38.8283169Z" OrderNo="9999999148" OrderType="HomeDelivery" ReqDeliveryDate="2020-04-30T07:00:00Z" ReqShipDate="2020-04-30T05:00:00Z" ShipNode="TH65038" PaymentRuleId="CardOnDelivery" CustCustPONo="1112223">
+    <OrderLines>
+        <OrderLine PrimeLineNo="1" SubLineNo="1" OrderedQty="1" ExtnUnitVolume="1" ExtnUnitWeight="1">
+            <Item ItemID="6005009863" ProductClass="GOOD" UnitCost="51.5" UnitOfMeasure="Each" ItemShortDesc="เลย์ ร็อค มันฝรั่งแผ่นหยัก รสเอ็กซ์ตร้า บาร์บีคิว 13กรัม x 12 ถุง" ProductLine=""/>
+            <LinePriceInfo ListPrice="51.5" RetailPrice="51.5"/>
+            <Extn ExtnWebUOM="Each"/>
+            <Promotions/>
+        </OrderLine>
+        <OrderLine PrimeLineNo="2" SubLineNo="1" OrderedQty="1" ExtnUnitVolume="1" ExtnUnitWeight="1">
+            <Item ItemID="6071743154" ProductClass="GOOD" UnitCost="20" UnitOfMeasure="Each" ItemShortDesc="โตโร คาราชีส ข้าวโพดเคลือบคาราเมลและชีส 55กรัม" ProductLine=""/>
+            <LinePriceInfo ListPrice="20" RetailPrice="20"/>
+            <Extn ExtnWebUOM="Each"/>
+            <Promotions/>
+        </OrderLine>
+        <OrderLine PrimeLineNo="3" SubLineNo="1" OrderedQty="1" ExtnUnitVolume="1" ExtnUnitWeight="1">
+            <Item ItemID="6000756466" ProductClass="GOOD" UnitCost="20" UnitOfMeasure="Each" ItemShortDesc="โตโร ข้าวโพดคลุกน้ำตาลและเนย 80กรัม" ProductLine=""/>
+            <LinePriceInfo ListPrice="20" RetailPrice="20"/>
+            <Extn ExtnWebUOM="Each"/>
+            <Promotions/>
+        </OrderLine>
+    </OrderLines>
+    <PersonInfoShipTo AddressLine1="1/2 Test Address1" DayPhone="0912344556" EMailID="rakesh.gorai@tesco.com" FirstName="Rakesh" AddressLine2="Test Address2" AddressLine3="Test Address3" AddressLine4="Test Address4 10240" AddressLine5="" EveningPhone="" MobilePhone="" Title="Mr" AddressLine6="" LastName="Gorai" AddressID="1020000453864" Latitude="13.77186" Longitude="100.64612" PersonID="12345"/>
+    <PersonInfoBillTo AddressLine1="1/2 Test Address1" DayPhone="0912344556" EMailID="rakesh.gorai@tesco.com" FirstName="Rakesh" AddressLine2="Test Address2" AddressLine3="Test Address3" AddressLine4="Test Address4 10240" AddressLine5="" EveningPhone="" MobilePhone="" Title="Mr" AddressLine6="" LastName="Gorai" AddressID="1020000453864" Latitude="13.77186" Longitude="100.64612" PersonID="12345"/>
+    <HeaderCharges>
+        <HeaderCharge ChargeAmount="60" ChargeCategory="Delivery" ChargeName="DeliveryCharge">
+            <Extn ExtnOriginalCharges="60"/>
+        </HeaderCharge>
+        <HeaderCharge ChargeAmount="0" ChargeCategory="BagDelivery" ChargeName="BagCharge">
+            <Extn ExtnOriginalCharges="0"/>
+        </HeaderCharge>
+        <HeaderCharge ChargeAmount="0" ChargeCategory="Surcharge" ChargeName="SurchargeCharge">
+            <Extn ExtnOriginalCharges="0"/>
+        </HeaderCharge>
+    </HeaderCharges>
+    <PaymentMethods>
+        <PaymentMethod CreditCardType="" PaymentReference1="" PaymentReference3="" PaymentType="CardOnDelivery" CheckNo="" CheckReference="" CustomerAccountNo="" PaymentReference2="" CustomerPONo=""/>
+    </PaymentMethods>
+    <Instructions>
+        <Instruction InstructionText="Pack in Bags" InstructionType="PACK"/>
+    </Instructions>
+    <Extn ExtnCallContext="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;CallContext xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;>&lt;channel>web&lt;/channel>&lt;business>grocery&lt;/business>&lt;customerSegment i:nil=&quot;true&quot;/>&lt;userIdentity>&lt;Id>23331193-dc9e-430b-aa0c-e2775e7da819&lt;/Id>&lt;DisplayName/>&lt;AuthenticationType/>&lt;IsAuthenticated>true&lt;/IsAuthenticated>&lt;Name>rakesh.gorai@tesco.com&lt;/Name>&lt;/userIdentity>&lt;storeId>65038&lt;/storeId>&lt;productInstance/>&lt;language>th-TH&lt;/language>&lt;region>TH&lt;/region>&lt;/CallContext>" ExtnAmendVersionNo="0" ExtnWebTotalPrice="60" ExtnTotalItems="10" ExtnTransactionReference="" ExtnPackInBags="True" ExtnFreeDeliveryThreshold="0" ExtnIsFreeDelivery="false" ExtnTaxIdentificationNumber="" ExtnTotalVolume="44396.784" ExtnVolumeUnit="cm3" ExtnWeightUnit="Kg" ExtnTotalWeight="11.679"/>
+</Order>
